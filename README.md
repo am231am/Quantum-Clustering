@@ -1,10 +1,10 @@
 ## Quantum K-Means Clustering
 
-This repository implements the K-means clustering algorithm using quantum state encoding for classical data points.
+This repository implements the K-means clustering algorithm using quantum state encoding for classical data points, and encode it to Quntum .
 
 ### Functions
 #### 1. generate_random_data
-Generates a NumPy array of random data with one column.
+Generates a NumPy array of random data with one column < Ket>
 
 #### 2. ground_state
 Returns a NumPy array representing the ground state (|0> state).
@@ -26,55 +26,42 @@ Performs K-means clustering on classical data points using quantum state encodin
 
 ### Usage
 
-Generate Random Data
+1-Generate Random Data
 
-python
+2-python
 
-Copy code
+3-from qiskit.circuit.library import XGate
 
-from qiskit.circuit.library import XGate
-
-import numpy as np
+4-import numpy as np
 
 ### def generate_random_data(m: int, n: int) -> np.array:
     ...
 Ground State
-python
-Copy code
 def ground_state() -> np.array:
     ...
 ### Initialize Centroids
-python
-Copy code
+
 ### def initialize_centroids(data: np.array, k: int) -> np.array:
     ...
 Encode Data
-python
-Copy code
 def encode_data(data: np.array, ground_state: np.array) -> np.array:
     ...
 Find Closest Centroids
-python
-Copy code
+
 ### def findClosestCentroids(enc_data: np.array, enc_centr: np.array) -> np.array:
     ...
 Compute Centroids
-python
-Copy code
+
 ### def computeCentroids(enc_data: np.array, idx: np.array, K: int) -> np.array:
     ...
 K-Means Quantum Clustering
-python
-Copy code
+
 ### def K_means_Quantum_clustering(data: np.array, k: int) -> np.array:
     ...
 #### Installation
 You can install the required libraries using pip:
 
-bash
-Copy code
 pip install qiskit matplotlib
-
 
 ### Contact
 For any inquiries or suggestions, please contact the author at nourraafat51@gmail.com.
