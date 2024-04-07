@@ -34,34 +34,8 @@ Performs K-means clustering on classical data points using quantum state encodin
 
 4-import numpy as np
 
-### def generate_random_data(m: int, n: int) -> np.array:
-    ...
-Ground State
-def ground_state() -> np.array:
-    ...
-### Initialize Centroids
-
-### def initialize_centroids(data: np.array, k: int) -> np.array:
-    ...
-Encode Data
-def encode_data(data: np.array, ground_state: np.array) -> np.array:
-    ...
-Find Closest Centroids
-
-### def findClosestCentroids(enc_data: np.array, enc_centr: np.array) -> np.array:
-    ...
-Compute Centroids
-
-### def computeCentroids(enc_data: np.array, idx: np.array, K: int) -> np.array:
-    ...
-K-Means Quantum Clustering
-
-### def K_means_Quantum_clustering(data: np.array, k: int) -> np.array:
-    ...
 #### Installation
+pip install qiskit for gates 
 You can install the required libraries using pip:
-
 pip install qiskit matplotlib
 
-### Contact
-For any inquiries or suggestions, please contact the author at nourraafat51@gmail.com.
